@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Библиотека — Каталог</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+
+    <header class="app-header">
+      <h1>Каталог</h1>
+      <a href="index.html"><div class="avatar">К</div></a>
+    </header>
+
+    <main class="app-main">
+
+      <section class="stats">
+        <div class="stats__item">
+          <div class="stats__num">12</div>
+          <div class="stats__label">На полках</div>
+        </div>
+        <div class="stats__item">
+          <div class="stats__num">2</div>
+          <div class="stats__label">Читаю</div>
+        </div>
+        <div class="stats__item">
+          <div class="stats__num">+20</div>
+          <div class="stats__label">Хочу</div>
+        </div>
+      </section>
+
+      <nav class="chips">
+        <div class="chip active">Все полки</div>
+        <div class="chip">Читаю</div>
+        <div class="chip">Прочитано</div>
+        <div class="chip">Хочу</div>
+      </nav>
+
+      <section class="books-grid">
+
+        <a href="book.html"><article class="book">
+          <div class="book__cover">Мастер и Маргарита</div>
+          <div class="book__body">
+            <h2 class="book__title">Мастер и Маргарита</h2>
+            <p class="book__author">Михаил Булгаков</p>
+            <div class="book__meta">
+              <span class="badge badge--reading">Читаю</span>
+              <span>1940</span>
+            </div>
+          </div>
+        </article>
+      </a>
+
+         <a href="book.html"><article class="book">
+          <div class="book__cover">Преступление и наказание</div>
+          <div class="book__body">
+            <h2 class="book__title">Преступление и наказание</h2>
+            <p class="book__author">Фёдор Достоевский</p>
+            <div class="book__meta">
+              <span class="badge badge--read">Прочитано</span>
+              <span>1866</span>
+            </div>
+          </div>
+        </article></a>
+
+         <a href="book.html"><article class="book">
+          <div class="book__cover">1984</div>
+          <div class="book__body">
+            <h2 class="book__title">1984</h2>
+            <p class="book__author">Джордж Оруэлл</p>
+            <div class="book__meta">
+              <span class="badge badge--want">Хочу</span>
+              <span>1949</span>
+            </div>
+          </div>
+        </article></a>
+
+      </section>
+
+    </main>
+
+    <nav class="app-nav">
+      <a class="app-nav__item active" href="catalog.html"><span class="icon">📖</span>Каталог</a>
+      <a class="app-nav__item"><span class="icon">🔍</span>Поиск</a>
+      <a class="app-nav__item"><span class="icon">➕</span>Добавить</a>
+      <a class="app-nav__item" href="index.html"><span class="icon">👤</span>Профиль</a>
+    </nav>
+
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

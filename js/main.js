@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{let e=document.querySelectorAll(".tabs__item");e.forEach(t=>{t.addEventListener("click",()=>{e.forEach(e=>e.classList.remove("active")),t.classList.add("active")})});let t=document.querySelectorAll(".chip");t.forEach(e=>{e.addEventListener("click",()=>{t.forEach(e=>e.classList.remove("active")),e.classList.add("active")})})});
